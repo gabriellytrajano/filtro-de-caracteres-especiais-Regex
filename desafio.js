@@ -6,7 +6,7 @@
 
 frase = 'I love dogs'
 
-sempontuacao= frase.replace(/[&!]/g, '')
+sempontuacao= frase.replace(/\s+/g, '')
 
 splits = sempontuacao.split(" ")
 
